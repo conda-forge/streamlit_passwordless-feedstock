@@ -1,5 +1,5 @@
 {% set name = "streamlit_passwordless" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d19f244d62bca63ccb6d185e1c3f5de2f490dece2a158f4d20aadac04b71a766
+  sha256: 8c029b90b7e949bebf4147dce0548d65972e3394bc22894583bc41f112517ba7
 
 build:
   number: 0
