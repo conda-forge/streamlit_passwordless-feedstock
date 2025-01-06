@@ -1,5 +1,5 @@
 {% set name = "streamlit_passwordless" %}
-{% set version = "0.10.0" %}
+{% set version = "0.11.0" %}
 {% set pyproject = load_file_data('pyproject.toml') %}
 {% set requires_python = pyproject.get('project', {}).get('requires-python', '') %}
 {% set python_min = requires_python|replace('>=', '') %}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8eee8376c33aaab97adf1b7d6966a43bdcfc596dffd6eaade83132881d0d729a
+  sha256: 293e720f2c813883b4fe0572c2a7001b12caf69289cd69f79712b1057886d137
 
 build:
   number: 0
@@ -24,6 +24,7 @@ requirements:
     - setuptools >=62.0
   run:
     - python >={{ python_min }}
+    - click >=8.0
     # Running the streamlit_passwordless custom component does not work with Streamlit v1.34 using conda.
     - streamlit >=1.24,!=1.34
     - passwordless >=0.1
@@ -43,9 +44,9 @@ about:
   home: https://github.com/antonlydell/streamlit-passwordless
   summary: 'A user model for Streamlit applications based on passwordless technology.'
   description: |
-    streamlit-passwordless provides a user model for Streamlit applications based on the
-    Bitwarden passwordless technology. It allows users to securely authenticate with a
-    Streamlit application using the passkey FIDO2 and WebAuthn protocols.
+    Streamlit Passwordless provides a user model for Streamlit applications, which allows
+    users to securely authenticate with a Streamlit application using passkeys. It integrates
+    with Bitwarden Passwordless.dev for the passkey management.
   license: MIT
   license_family: MIT
   license_file: LICENSE
