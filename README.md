@@ -13,9 +13,9 @@ Development: https://github.com/antonlydell/streamlit-passwordless
 
 Documentation: https://passwordless.streamlit.app
 
-streamlit-passwordless provides a user model for Streamlit applications based on the
-Bitwarden passwordless technology. It allows users to securely authenticate with a
-Streamlit application using the passkey FIDO2 and WebAuthn protocols.
+Streamlit Passwordless provides a user model for Streamlit applications, which allows
+users to securely authenticate with a Streamlit application using passkeys. It integrates
+with Bitwarden Passwordless.dev for the passkey management.
 
 
 Current build status
