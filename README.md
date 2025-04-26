@@ -36,7 +36,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-streamlit_passwordless-green.svg)](https://anaconda.org/conda-forge/streamlit_passwordless) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/streamlit_passwordless.svg)](https://anaconda.org/conda-forge/streamlit_passwordless) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/streamlit_passwordless.svg)](https://anaconda.org/conda-forge/streamlit_passwordless) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/streamlit_passwordless.svg)](https://anaconda.org/conda-forge/streamlit_passwordless) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-streamlit__passwordless-green.svg)](https://anaconda.org/conda-forge/streamlit_passwordless) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/streamlit_passwordless.svg)](https://anaconda.org/conda-forge/streamlit_passwordless) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/streamlit_passwordless.svg)](https://anaconda.org/conda-forge/streamlit_passwordless) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/streamlit_passwordless.svg)](https://anaconda.org/conda-forge/streamlit_passwordless) |
 
 Installing streamlit_passwordless
 =================================
