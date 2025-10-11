@@ -1,5 +1,5 @@
 {% set name = "streamlit_passwordless" %}
-{% set version = "0.16.1" %}
+{% set version = "0.17.0" %}
 {% set pyproject = load_file_data('pyproject.toml') %}
 {% set requires_python = pyproject.get('project', {}).get('requires-python', '') %}
 {% set python_min = requires_python|replace('>=', '') %}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cb6ffb7f2a9b978ac46ec9e37c8c45cd443a6dddd9170893b4a9b28bd6a23f41
+  sha256: 3b4b42f67a231f7f54a203bf590764ba3279a9d2ca73e8f92364cc98017cab96
 
 build:
   number: 0
@@ -23,7 +23,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - setuptools >=62.0
+    - setuptools >=77.0
   run:
     - python >={{ python_min }}
     - click >=8.0
